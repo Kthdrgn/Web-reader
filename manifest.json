@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "eBook Reader",
+    "description": "Read eBook files directly in your browser",
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "web_accessible_resources":  [
+        "reader.html"
+    ],
+    "permissions": ["webNavigation", "webRequest", "webRequestBlocking", "<all_urls>"],
+    "version": "0.1"
+}
